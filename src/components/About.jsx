@@ -43,7 +43,7 @@ const About = () => {
         voluptas deserunt neque dignissimos architecto quisquam commodi culpa!
         Accusamus, facere recusandae.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap justify-between gap-5">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
