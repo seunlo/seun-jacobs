@@ -38,10 +38,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, et
-        eveniet. Officia, totam eius. Molestiae, et error fugiat delectus
-        voluptas deserunt neque dignissimos architecto quisquam commodi culpa!
-        Accusamus, facere recusandae.
+        I'm a skilled software developer with experience in React and
+        JavaScript, and expertise in back-end frameworks like Node.js, Firebase and
+        MongoDb. I'm a quick learner and collaborate closely with clients to
+        create efficient, scalable, and user-friendly solutions that solve
+        real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap justify-between gap-5">
         {services.map((service, index) => (

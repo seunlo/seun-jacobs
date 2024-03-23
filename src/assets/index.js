@@ -26,7 +26,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import swiphr from "./swiphr.png";
+import allianzblog from "./allianz-blog.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -54,9 +55,10 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
   firebase,
   bootstrap,
+  swiphr,
+  allianzblog,
 };

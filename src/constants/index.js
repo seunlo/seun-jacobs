@@ -18,7 +18,8 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  swiphr,
+  allianzblog,
   jobit,
   tripguide,
 } from "../assets";
@@ -55,10 +56,6 @@ const services = [
     title: "Back-End Developer",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
 ];
 
 const technologies = [
@@ -201,37 +198,37 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: swiphr,
+    source_code_link: "https://github.com/seunlo/swiphr-project",
   },
   {
-    name: "Job IT",
+    name: "Allianz-Blog",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to read, comment and like blogs posted by admin.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongo db",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: allianzblog,
+    source_code_link: "https://github.com/seunlo/allianz-blog",
   },
   {
     name: "Trip Guide",
