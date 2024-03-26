@@ -14,12 +14,13 @@ import {
   nodejs,
   mongodb,
   git,
+  weblogo,
   meta,
   starbucks,
   tesla,
   shopify,
-  swiphr,
   allianzblog,
+  allianznike,
   jobit,
   tripguide,
 } from "../assets";
@@ -189,9 +190,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Allianz-Nike",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This beautiful Nike landing page was built out of the need to further have a robust knowledge of Tailwind CSS",
     tags: [
       {
         name: "react",
@@ -202,8 +203,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: swiphr,
-    source_code_link: "https://github.com/seunlo/swiphr-project",
+    image: allianznike,
+    source_code_link: "https://github.com/seunlo/allianz-nike",
+    web_link: "https://allianz-nike.onrender.com/",
   },
   {
     name: "Allianz-Blog",
@@ -224,11 +226,12 @@ const projects = [
       },
       {
         name: "firebase",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: allianzblog,
     source_code_link: "https://github.com/seunlo/allianz-blog",
+    web_link: "https://allianz-blog.onrender.com/",
   },
   {
     name: "Trip Guide",
@@ -250,6 +253,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    web_link: "https://allianz-nike.onrender.com/",
   },
 ];
 

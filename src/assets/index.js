@@ -1,9 +1,11 @@
 import logo from "./logo.svg";
+import personal from './personal.jpeg';
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import weblogo from "./weblogo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,18 +28,20 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import swiphr from "./swiphr.png";
 import allianzblog from "./allianz-blog.png";
+import allianznike from "./allianz-nike.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   logo,
+  personal,
   backend,
   creator,
   mobile,
   web,
   github,
+  weblogo,
   menu,
   close,
   css,
@@ -59,6 +63,6 @@ export {
   tripguide,
   firebase,
   bootstrap,
-  swiphr,
   allianzblog,
+  allianznike,
 };
