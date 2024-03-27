@@ -15,10 +15,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`font-bold lg:text-6xl text-[38px] text-white`} style={{lineHeight:'38px'}}>
             Back-End <span className="text-[#915EFF]">Web Developer</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-4 text-white-100`}>
             I create, design and develop server-side logic, ensuring high performance and
             responsiveness to requests from the front-end.
           </p>
