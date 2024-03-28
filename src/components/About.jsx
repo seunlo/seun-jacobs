@@ -38,11 +38,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in React and
-        JavaScript, and expertise in back-end frameworks like Node.js, Firebase
-        and MongoDb. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am an experienced software developer with proficiency in React and JavaScript. I possess expertise in back-end frameworks such as Node.js, Firebase, and MongoDB. I am a fast learner and work closely with clients to develop efficient, scalable, and user-friendly solutions that address real-world problems. Let's collaborate and bring your ideas to life!
       </motion.p>
 
       <div className="py-10 flex flex-col">

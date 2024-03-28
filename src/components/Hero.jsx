@@ -34,8 +34,7 @@ const Hero = () => {
             Back-End <span className="text-[#915EFF]">Web Developer</span>
           </h1>
           <p className={`${styles.heroSubText} mt-4 text-white-100`}>
-            I create, design and develop server-side logic, ensuring high
-            performance and responsiveness to requests from the front-end.
+          I am responsible for developing server-side logic that is highly responsive to requests from the front-end.
           </p>
         </div>
       </div>
