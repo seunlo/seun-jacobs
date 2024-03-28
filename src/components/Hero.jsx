@@ -1,9 +1,21 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
+import { useEffect, useRef, useState } from "react";
+import { lion, soundoff, soundon } from "../assets/icons";
 
 const Hero = () => {
+  const audioRef = useRef(new Audio(lion));
+  audioRef.current.volume = 0.8;
+  audioRef.current.loop = true;
+  const [isPlayingMusic, setIsPlayingMusic] = useState(false);
+  useEffect(() => {
+    if (isPlayingMusic) {
+      audioRef.current.play();
+    }
+    return () => {
+      audioRef.current.pause();
+    };
+  }, [isPlayingMusic]);
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -15,17 +27,28 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`font-bold lg:text-6xl text-[38px] text-white`} style={{lineHeight:'38px'}}>
+          <h1
+            className={`font-bold lg:text-6xl text-[38px] text-white`}
+            style={{ lineHeight: "38px" }}
+          >
             Back-End <span className="text-[#915EFF]">Web Developer</span>
           </h1>
           <p className={`${styles.heroSubText} mt-4 text-white-100`}>
-            I create, design and develop server-side logic, ensuring high performance and
-            responsiveness to requests from the front-end.
+            I create, design and develop server-side logic, ensuring high
+            performance and responsiveness to requests from the front-end.
           </p>
         </div>
       </div>
 
       <ComputersCanvas />
+        <div className="absolute top-[480px] left-[360px]">
+          <img
+            src={!isPlayingMusic ? soundoff : soundon}
+            alt="sound"
+            className="w-10 h-10 cursor-pointer object-contain"
+            onClick={() => setIsPlayingMusic(!isPlayingMusic)}
+          />
+        </div>
     </section>
   );
 };

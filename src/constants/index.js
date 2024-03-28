@@ -1,29 +1,51 @@
 import {
-  mobile,
+  bootstrap,
+  css,
+  express,
+  firebase,
+  git,
+  github,
+  html,
+  javascript,
+  mongodb,
+  motion,
+  mui,
+  nextjs,
+  nodejs,
+  react,
+  redux,
+  sass,
+  tailwindcss,
+  linkedin,
+  twitter,
+  car,
+  estate,
+  pricewise,
+  snapgram,
+  summiz,
+  threads,
+  arrow,
+  contact,
+  soundon,
+  soundoff,
+  logo,
+  personal,
   backend,
   creator,
+  mobile,
   web,
-  javascript,
-  firebase,
-  bootstrap,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
   weblogo,
+  menu,
+  close,
   meta,
+  shopify,
   starbucks,
   tesla,
-  shopify,
-  allianzblog,
-  allianznike,
   jobit,
   tripguide,
-} from "../assets";
+  allianzblog,
+  allianznike,
+} from "../assets/icons";
 
 export const navLinks = [
   {
@@ -44,6 +66,79 @@ export const navLinks = [
   },
 ];
 
+export const skills = [
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: bootstrap,
+    name: "Bootstrap",
+    type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: redux,
+    name: "Redux",
+    type: "State Management",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: motion,
+    name: "Motion",
+    type: "Animation",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: firebase,
+    name: "Firebase",
+    type: "Backend",
+  },
+];
+
 const services = [
   {
     title: "Front-End Developer",
@@ -56,53 +151,6 @@ const services = [
   {
     title: "Back-End Developer",
     icon: backend,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "Firebase",
-    icon: firebase,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Bootstrap CSS",
-    icon: bootstrap,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "git",
-    icon: git,
   },
 ];
 
@@ -210,7 +258,7 @@ const projects = [
   {
     name: "Allianz-Blog",
     description:
-      "Web application that enables users to read, comment and like blogs posted by admin.",
+      "This is a full-stack web application that enables users to read, comment and like blogs posted by admin.",
     tags: [
       {
         name: "react",
@@ -234,21 +282,25 @@ const projects = [
     web_link: "https://allianz-blog.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Allianz-Estate",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongo db",
         color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
@@ -257,4 +309,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, testimonials, projects };

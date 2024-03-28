@@ -7,6 +7,8 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Alert from './Alert';
+import Loader from './Loader';
 
 export {
   Hero,
@@ -20,5 +22,7 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Alert,
+  Loader,
 }

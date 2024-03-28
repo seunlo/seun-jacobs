@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../style";
 import { navLinks } from "../constants";
-import { personal, menu, close } from "../assets";
+import { personal, menu, close } from "../assets/icons";
 
 export default function Navbar() {
   const [active, setActive] = useState("");
@@ -73,3 +73,6 @@ export default function Navbar() {
     </nav>
   );
 }
+
+
+
