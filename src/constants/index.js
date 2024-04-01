@@ -304,8 +304,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
-    web_link: "https://allianz-nike.onrender.com/",
+    source_code_link: "https://github.com/seunlo/allianz-estate",
+    web_link: "https://allianz-estate.onrender.com/",
   },
 ];
 
